@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://blog.jeacsonsnake.com/rss.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <atom:link href="https://blog.jeacsonsnake.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <title>JeacsonBlog</title>
+    <link>https://blog.jeacsonsnake.com/</link>
+    <description>JeacsonBlog-一个简单的博客</description>
+    <language>zh-CN</language>
+    <pubDate>Mon, 13 Apr 2026 16:19:22 GMT</pubDate>
+    <lastBuildDate>Mon, 13 Apr 2026 16:19:22 GMT</lastBuildDate>
+    <generator>@vuepress/plugin-feed</generator>
+    <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <image>
+      <title>JeacsonBlog</title>
+      <url>https://blog.jeacsonsnake.com/assets/img/logo.png</url>
+      <link>https://blog.jeacsonsnake.com/</link>
+    </image>
+    <category>Computer</category>
+    <category>robot</category>
+    <category>ROS</category>
+    <category>Skill</category>
+    <category>Network</category>
+    <category>basic</category>
+    <item>
+      <title>ROS2-Z02-ROS2工具：坐标变换（EXEC2）乌龟护航案例实战</title>
+      <link>/learningNote/Ros2_Note/coor_trans/2026_02_13.html</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/coor_trans/2026_02_13.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2-Z02-ROS2工具：坐标变换（EXEC2）乌龟护航案例实战</source>
+      <description>简介 本章节主要介绍如何实现 “乌龟护航” 案例。里面的大部分代码会沿用内的相关代码内容。因此建议先尝试实现上一章节的效果，再来进行本章节的实战。 案例需求&amp;分析 需求： 基于上一章节要求编写程序实现，以 turtlesim_node 节点的原生乌龟（turtle1）为几何中心，生成多只新的乌龟（以三只为例，即turtle2、turtle3、turtl...</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Fri, 13 Feb 2026 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[简介 本章节主要介绍如何实现 “乌龟护航” 案例。里面的大部分代码会沿用内的相关代码内容。因此建议先尝试实现上一章节的效果，再来进行本章节的实战。 案例需求&分析 需求： 基于上一章节要求编写程序实现，以 turtlesim_node 节点的原生乌龟（turtle1）为几何中心，生成多只新的乌龟（以三只为例，即turtle2、turtle3、turtl...]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2-Z01-ROS2工具：坐标变换（EXEC1）乌龟跟随案例实战</title>
+      <link>/learningNote/Ros2_Note/coor_trans/2026_02_09.html</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/coor_trans/2026_02_09.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2-Z01-ROS2工具：坐标变换（EXEC1）乌龟跟随案例实战</source>
+      <description>简介 本章节主要介绍如何实现 “乌龟跟随” 案例。 案例需求&amp;分析 需求： 编写程序实现，程序运行后会启动 turtlesim_node 节点，该节点会生成一个窗口，窗口中有一只原生乌龟（turtle1），紧接着再生成一只新的乌龟（turtle2）。要求在 turtle1 无论是静止或是被键盘控制运动时，turtle2 都会以 turtle1 为目标并...</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[简介 本章节主要介绍如何实现 “乌龟跟随” 案例。 案例需求&分析 需求： 编写程序实现，程序运行后会启动 turtlesim_node 节点，该节点会生成一个窗口，窗口中有一只原生乌龟（turtle1），紧接着再生成一只新的乌龟（turtle2）。要求在 turtle1 无论是静止或是被键盘控制运动时，turtle2 都会以 turtle1 为目标并...]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2-026-ROS2工具：坐标变换（七）坐标变换工具</title>
+      <link>/learningNote/Ros2_Note/coor_trans/2026_02_05.html</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/coor_trans/2026_02_05.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2-026-ROS2工具：坐标变换（七）坐标变换工具</source>
+      <description>简介 在 TF 框架中，ROS2 除了封装了 坐标广播与监听 功能外，还提供了一些可以帮助我们提高开发、调试效率的工具。本章节主要介绍这些工具的使用。 这些工具主要涉及到两个功能包：tf2_ros 和 tf2_tools。 功能包介绍 tf2_ros 包中提供的常用节点如下： static_transform_publisher：该节点用于广播静态坐标...</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Thu, 05 Feb 2026 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[简介 在 TF 框架中，ROS2 除了封装了 坐标广播与监听 功能外，还提供了一些可以帮助我们提高开发、调试效率的工具。本章节主要介绍这些工具的使用。 这些工具主要涉及到两个功能包：tf2_ros 和 tf2_tools。 功能包介绍 tf2_ros 包中提供的常用节点如下： static_transform_publisher：该节点用于广播静态坐标...]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2-025-ROS2工具：坐标变换（六）监听坐标点消息</title>
+      <link>/learningNote/Ros2_Note/coor_trans/2026_02_04.html</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/coor_trans/2026_02_04.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2-025-ROS2工具：坐标变换（六）监听坐标点消息</source>
+      <description>简介 坐标变换监听 可以实现坐标点在不同坐标系之间的变换，或者不同的多个坐标系之间的变换。 针对坐标变换进行监听的前提，是必须已有不同的多个坐标系相对关系的广播，而至于是静态广播或动态广播则无要求。因为监听获取的坐标系相对关系皆为某一时刻或某一时间点。 在中，我们经由案例一实现了多坐标系的场景下实现不同坐标系之间的变换。在这一章节中，我们会实现案例二，...</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[简介 坐标变换监听 可以实现坐标点在不同坐标系之间的变换，或者不同的多个坐标系之间的变换。 针对坐标变换进行监听的前提，是必须已有不同的多个坐标系相对关系的广播，而至于是静态广播或动态广播则无要求。因为监听获取的坐标系相对关系皆为某一时刻或某一时间点。 在中，我们经由案例一实现了多坐标系的场景下实现不同坐标系之间的变换。在这一章节中，我们会实现案例二，...]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2-024-ROS2工具：坐标变换（五）坐标变换监听</title>
+      <link>/learningNote/Ros2_Note/coor_trans/2026_02_03.html</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/coor_trans/2026_02_03.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2-024-ROS2工具：坐标变换（五）坐标变换监听</source>
+      <description>简介 坐标变换监听 可以实现坐标点在不同坐标系之间的变换，或者不同的多个坐标系之间的变换。 针对坐标变换进行监听的前提，是必须已有不同的多个坐标系相对关系的广播，而至于是静态广播或动态广播则无要求。因为监听获取的坐标系相对关系皆为某一时刻或某一时间点。 案例梳理 以下有两个案例： 在中，我们发布了 laser 相对于 base_link，和 camra...</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Tue, 03 Feb 2026 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[简介 坐标变换监听 可以实现坐标点在不同坐标系之间的变换，或者不同的多个坐标系之间的变换。 针对坐标变换进行监听的前提，是必须已有不同的多个坐标系相对关系的广播，而至于是静态广播或动态广播则无要求。因为监听获取的坐标系相对关系皆为某一时刻或某一时间点。 案例梳理 以下有两个案例： 在中，我们发布了 laser 相对于 base_link，和 camra...]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2-023-ROS2工具：坐标变换（四）发布坐标点消息</title>
+      <link>/learningNote/Ros2_Note/coor_trans/2026_02_02.html</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/coor_trans/2026_02_02.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2-023-ROS2工具：坐标变换（四）发布坐标点消息</source>
+      <description>简介 在 里，我们介绍了静态广播 和 动态广播。本章会主要介绍如何发布坐标点消息。 案例梳理 以下有一案例需求： 有一无人车，在无人车底盘上装有 固定式 的激光雷达。车辆底盘、雷达各对应一坐标系，且各坐标系的原点取其几何中心。现该激光雷达扫描到一 点状障碍物 且可以定位到障碍物的坐标，请在 雷达坐标系下 发布障碍坐标点数据，并在Rviz2 中查看结果。...</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[简介 在 里，我们介绍了静态广播 和 动态广播。本章会主要介绍如何发布坐标点消息。 案例梳理 以下有一案例需求： 有一无人车，在无人车底盘上装有 固定式 的激光雷达。车辆底盘、雷达各对应一坐标系，且各坐标系的原点取其几何中心。现该激光雷达扫描到一 点状障碍物 且可以定位到障碍物的坐标，请在 雷达坐标系下 发布障碍坐标点数据，并在Rviz2 中查看结果。...]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2-022-ROS2工具：坐标变换（三）坐标变换广播</title>
+      <link>/learningNote/Ros2_Note/coor_trans/2026_01_29.html</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/coor_trans/2026_01_29.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2-022-ROS2工具：坐标变换（三）坐标变换广播</source>
+      <description>简介 坐标系相对关系主要有两种：静态坐标系相对关系与动态坐标系相对关系： 静态坐标系相对关系 是指两个坐标系之间的相对位置是 固定不变 的，比如：车辆上的雷达、摄像头等组件一般是固定式的，那么雷达坐标系相对于车辆底盘坐标系或摄像头坐标系相对于车辆底盘坐标系就是一种静态关系。 动态坐标系相对关系 是指两个坐标系之间的相对位置关系是 动态改变 的，比如：车...</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Thu, 29 Jan 2026 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[简介 坐标系相对关系主要有两种：静态坐标系相对关系与动态坐标系相对关系： 静态坐标系相对关系 是指两个坐标系之间的相对位置是 固定不变 的，比如：车辆上的雷达、摄像头等组件一般是固定式的，那么雷达坐标系相对于车辆底盘坐标系或摄像头坐标系相对于车辆底盘坐标系就是一种静态关系。 动态坐标系相对关系 是指两个坐标系之间的相对位置关系是 动态改变 的，比如：车...]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2-020-ROS2工具：坐标变换（一）简介</title>
+      <link>/learningNote/Ros2_Note/coor_trans/2026_01_28.html</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/coor_trans/2026_01_28.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2-020-ROS2工具：坐标变换（一）简介</source>
+      <description>简介 我们在操作机器人时，通常会使用各种传感器感知机器人周围的物体与机器人的相对位置。不过在未针对传感器进行配置的情况下，传感器只能够返回其自身与物体的相对位置。因此我们需要通过某些特定的转换工程，才可以将该传感器的方位信息，变换物体相对于机器人系统或机器人其它组件的方位信息。在 ROS 中直接封装了相关的模块，其名称为 tf(TransForm Fr...</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Wed, 28 Jan 2026 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[简介 我们在操作机器人时，通常会使用各种传感器感知机器人周围的物体与机器人的相对位置。不过在未针对传感器进行配置的情况下，传感器只能够返回其自身与物体的相对位置。因此我们需要通过某些特定的转换工程，才可以将该传感器的方位信息，变换物体相对于机器人系统或机器人其它组件的方位信息。在 ROS 中直接封装了相关的模块，其名称为 tf(TransForm Fr...]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2-021-ROS2工具：坐标变换（二）内部常用接口消息</title>
+      <link>/learningNote/Ros2_Note/coor_trans/2026_01_28_002.html</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/coor_trans/2026_01_28_002.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2-021-ROS2工具：坐标变换（二）内部常用接口消息</source>
+      <description>简介 由来看，我们不难发现对于坐标变换的实现，其本质是基于话题通信的发布订阅模型。发布方可以发布坐标系之间的相对关系，订阅方则可以监听这些消息，并实现不同坐标系之间的变换。根据，在话题通信中，接口消息 作为数据载体在整个通信模型中是比较重要的一部分。 本章将会介绍坐标变换中常用的两种接口消息：geometry_msgs/msg/TransformSta...</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Wed, 28 Jan 2026 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[简介 由来看，我们不难发现对于坐标变换的实现，其本质是基于话题通信的发布订阅模型。发布方可以发布坐标系之间的相对关系，订阅方则可以监听这些消息，并实现不同坐标系之间的变换。根据，在话题通信中，接口消息 作为数据载体在整个通信模型中是比较重要的一部分。 本章将会介绍坐标变换中常用的两种接口消息：geometry_msgs/msg/TransformSta...]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2工具——坐标变换</title>
+      <link>/learningNote/Ros2_Note/coor_trans/</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/coor_trans/</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2工具——坐标变换</source>
+      <description>简述 这里是我有关ROS2工具 - 坐标变换 的相关笔记，包括的内容有： 坐标变换的概念与应用场景 坐标变换的两种重要消息载体: TransformStamped &amp; PointStamped 的定义格式（基于 话题通信 ） 坐标变换的通信双方（广播方与监听方） 坐标变换工具 （相关指令的进一步说明以及调试工具等） 具体软硬件以及技术背景等细节请参考</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Mon, 13 Apr 2026 16:19:23 GMT</pubDate>
+      <content:encoded><![CDATA[简述 这里是我有关ROS2工具 - 坐标变换 的相关笔记，包括的内容有： 坐标变换的概念与应用场景 坐标变换的两种重要消息载体: TransformStamped & PointStamped 的定义格式（基于 话题通信 ） 坐标变换的通信双方（广播方与监听方） 坐标变换工具 （相关指令的进一步说明以及调试工具等） 具体软硬件以及技术背景等细节请参考]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2-019-ROS2工具：rosbag2</title>
+      <link>/learningNote/Ros2_Note/launch_rosbag2/2026_01_24.html</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/launch_rosbag2/2026_01_24.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2-019-ROS2工具：rosbag2</source>
+      <description>简介 假设你有一个机器人： 它在日常运行时没有问题，但是在某一次运行时突然报错了。你希望即刻对此进行排查，但是这个报错只出现了一次，再次运行又没有报错了。 你给他重新设计了一个运动控制节点，但是调不准它的一些特定参数。如果在真实环境中直接运行可能会出现意想不到的情况。 你在某一次运动导航实验中意外的获得了一条导航路径，希望有什么工具把它保存下来，以便之...</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Sat, 24 Jan 2026 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[简介 假设你有一个机器人： 它在日常运行时没有问题，但是在某一次运行时突然报错了。你希望即刻对此进行排查，但是这个报错只出现了一次，再次运行又没有报错了。 你给他重新设计了一个运动控制节点，但是调不准它的一些特定参数。如果在真实环境中直接运行可能会出现意想不到的情况。 你在某一次运动导航实验中意外的获得了一条导航路径，希望有什么工具把它保存下来，以便之...]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2-018-ROS2工具：启动文件 launch 的XML/YAML实现</title>
+      <link>/learningNote/Ros2_Note/launch_rosbag2/2026_01_22.html</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/launch_rosbag2/2026_01_22.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2-018-ROS2工具：启动文件 launch 的XML/YAML实现</source>
+      <description>简介 有关 launch 文件的介绍，可以参考 除非你希望仅使用 C++ 进行编写，否则由于 XML &amp; YAML 语言自身并无事件触发函数能进行适配，我个人并不推荐使用 XML/YAML 语言作为编写 launch 的首要语言（虽然他编写起来确实较为简便 = =）。若有实际需要，请结合官方文档进行代码的书写。 因为代码格式相似，在下文中我们会将 XM...</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Thu, 22 Jan 2026 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[简介 有关 launch 文件的介绍，可以参考 除非你希望仅使用 C++ 进行编写，否则由于 XML & YAML 语言自身并无事件触发函数能进行适配，我个人并不推荐使用 XML/YAML 语言作为编写 launch 的首要语言（虽然他编写起来确实较为简便 = =）。若有实际需要，请结合官方文档进行代码的书写。 因为代码格式相似，在下文中我们会将 XM...]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2-017-ROS2工具：启动文件 launch 的 python 实现</title>
+      <link>/learningNote/Ros2_Note/launch_rosbag2/2025_04_29.html</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/launch_rosbag2/2025_04_29.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2-017-ROS2工具：启动文件 launch 的 python 实现</source>
+      <description>简介 有关 launch 文件的介绍，可以参考 Python 实现语法 以下介绍在 Python 中 launch 文件 的相关语法： 1. 节点设置-Node 在 使用 Python 实现的 launch 文件 中，被执行的节点需要统一封装为 launch_ros.actions.Node 对象，并通过 LaunchDescription() 函数创...</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Wed, 21 Jan 2026 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[简介 有关 launch 文件的介绍，可以参考 Python 实现语法 以下介绍在 Python 中 launch 文件 的相关语法： 1. 节点设置-Node 在 使用 Python 实现的 launch 文件 中，被执行的节点需要统一封装为 launch_ros.actions.Node 对象，并通过 LaunchDescription() 函数创...]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2-016-ROS2工具：启动文件 launch 的介绍及其简单使用</title>
+      <link>/learningNote/Ros2_Note/launch_rosbag2/2025_04_28.html</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/launch_rosbag2/2025_04_28.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2-016-ROS2工具：启动文件 launch 的介绍及其简单使用</source>
+      <description>简介 在机器人操作系统中，节点是程序的基本构成单元。一个完整的、系统性的功能模块由多个节点构成，在启动某个功能模块时可能需要依次启动这些节点。 以机器人的导航功能为例，其涉及的节点主要有以下几种： 底盘驱动； 雷达驱动； 摄像头驱动； imu 驱动； 地图服务； 路径规划； 运动控制； 环境感知； 定位； etc. 且不同的节点启动时，可能还会涉及到各...</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Mon, 28 Apr 2025 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[简介 在机器人操作系统中，节点是程序的基本构成单元。一个完整的、系统性的功能模块由多个节点构成，在启动某个功能模块时可能需要依次启动这些节点。 以机器人的导航功能为例，其涉及的节点主要有以下几种： 底盘驱动； 雷达驱动； 摄像头驱动； imu 驱动； 地图服务； 路径规划； 运动控制； 环境感知； 定位； etc. 且不同的节点启动时，可能还会涉及到各...]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2工具——launch &amp; rosbag2</title>
+      <link>/learningNote/Ros2_Note/launch_rosbag2/</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/launch_rosbag2/</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2工具——launch &amp; rosbag2</source>
+      <description>简述 这里是我有关 ROS2工具 - launch &amp; rosbag2 内容的相关笔记，这里所包括的内容有： launch 文件及其实现 rosbag2 工具的介绍与使用（序列化存储数据，实现话题消息的录制与回放） 具体软硬件以及技术背景等细节请参考</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Mon, 13 Apr 2026 16:19:23 GMT</pubDate>
+      <content:encoded><![CDATA[简述 这里是我有关 ROS2工具 - launch & rosbag2 内容的相关笔记，这里所包括的内容有： launch 文件及其实现 rosbag2 工具的介绍与使用（序列化存储数据，实现话题消息的录制与回放） 具体软硬件以及技术背景等细节请参考]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2-015-通信机制补完：通信机制工具（二）图形化工具（RQt）与总结</title>
+      <link>/learningNote/Ros2_Note/co_me_2/2025_04_13.html</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/co_me_2/2025_04_13.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2-015-通信机制补完：通信机制工具（二）图形化工具（RQt）与总结</source>
+      <description>上半部分见 二、图形化工具（RQt） 简述 RQt 是一个基于 Qt 框架 开发的 GUI 框架。它通过应用各种 “以插件形式存在的工具与接口” 实现在单个页面开发、调试与监控机器人系统，其允许用户通过配置插件灵活地与 ROS2 系统进行交互。作为通信机制工具只是其中的一种功能，在这里仅会做一些简要的入门介绍。 拓展信息 | In case you w...</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Sun, 13 Apr 2025 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[上半部分见 二、图形化工具（RQt） 简述 RQt 是一个基于 Qt 框架 开发的 GUI 框架。它通过应用各种 “以插件形式存在的工具与接口” 实现在单个页面开发、调试与监控机器人系统，其允许用户通过配置插件灵活地与 ROS2 系统进行交互。作为通信机制工具只是其中的一种功能，在这里仅会做一些简要的入门介绍。 拓展信息 | In case you w...]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2-014-通信机制补完：通信机制工具（一）综述与命令行工具</title>
+      <link>/learningNote/Ros2_Note/co_me_2/2025_04_12.html</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/co_me_2/2025_04_12.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2-014-通信机制补完：通信机制工具（一）综述与命令行工具</source>
+      <description>简介 上一章内容，我们学习了ROS2中的多种通信机制，了解了不同通信模型的实现流程、相关API以及各自的特点。在实际开发当中，我们可能会遇到一些问题： 一个完整的机器人系统启动之后，其组成是比较复杂的，可能包含十几个、几十个甚至上百个节点，不同的节点可能又包含一个或多个通信对象(话题发布方、话题订阅方、服务端、客户端、动作服务端、动作客户端、参数服务端...</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Sat, 12 Apr 2025 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[简介 上一章内容，我们学习了ROS2中的多种通信机制，了解了不同通信模型的实现流程、相关API以及各自的特点。在实际开发当中，我们可能会遇到一些问题： 一个完整的机器人系统启动之后，其组成是比较复杂的，可能包含十几个、几十个甚至上百个节点，不同的节点可能又包含一个或多个通信对象(话题发布方、话题订阅方、服务端、客户端、动作服务端、动作客户端、参数服务端...]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2-013-通信机制补完：时间类 API</title>
+      <link>/learningNote/Ros2_Note/co_me_2/2025_03_16.html</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/co_me_2/2025_03_16.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2-013-通信机制补完：时间类 API</source>
+      <description>简介 假设有一个机器人，在机器人上有一个雷达。该雷达有一相关节点会发布雷达探测到的各种信息，且会被机器人内部一导航模块所属节点订阅并接收。为了减少机器人移动过程中由于通信延迟在路径规划上产生相关误差，当二者进行数据交互时，必然需要保证信息的实时性。 因此我们需要使用 时间类 API，在传输数据时提供相关数据产生时的时间戳使接收方能够进行相关数据时效性的...</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Sun, 16 Mar 2025 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[简介 假设有一个机器人，在机器人上有一个雷达。该雷达有一相关节点会发布雷达探测到的各种信息，且会被机器人内部一导航模块所属节点订阅并接收。为了减少机器人移动过程中由于通信延迟在路径规划上产生相关误差，当二者进行数据交互时，必然需要保证信息的实时性。 因此我们需要使用 时间类 API，在传输数据时提供相关数据产生时的时间戳使接收方能够进行相关数据时效性的...]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2-012-通信机制补完：话题重名</title>
+      <link>/learningNote/Ros2_Note/co_me_2/2025_03_15.html</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/co_me_2/2025_03_15.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2-012-通信机制补完：话题重名</source>
+      <description>简介 咱在之前聊到，那么有话题重名吗？ 有的，dude，有的☝🤓 与节点重名相同，在 ROS2 中，话题名称也可能重名。在不同的节点之间，通信都依赖于话题，当话题重名时，系统虽然不会抛出异常，但是通过 相同话题名称 关联到一起的节点可能 并不属于 同一通信逻辑，从而导致通信错乱，甚至出现异常。这种情况下可能就需要将相同的话题名称设置为不同。 不过与节...</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Sat, 15 Mar 2025 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[简介 咱在之前聊到，那么有话题重名吗？ 有的，dude，有的☝🤓 与节点重名相同，在 ROS2 中，话题名称也可能重名。在不同的节点之间，通信都依赖于话题，当话题重名时，系统虽然不会抛出异常，但是通过 相同话题名称 关联到一起的节点可能 并不属于 同一通信逻辑，从而导致通信错乱，甚至出现异常。这种情况下可能就需要将相同的话题名称设置为不同。 不过与节...]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2-011-通信机制补完：节点重名</title>
+      <link>/learningNote/Ros2_Note/co_me_2/2025_03_14.html</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/co_me_2/2025_03_14.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2-011-通信机制补完：节点重名</source>
+      <description>简介 在 ROS2 中，不同的节点可以有相同的节点名称，比如你可以启动多个节点的名称都是 turtlesim 的 turtlesim_node 节点。 虽然节点重名是被 允许 的，但是开发者应该 主动避免 这种情况，因为节点重名可能会导致操作上的混淆。 仍以启动了多个 turtlesim_node 节点为例，当使用 计算图（rqt_graph） 查看节...</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Fri, 14 Mar 2025 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[简介 在 ROS2 中，不同的节点可以有相同的节点名称，比如你可以启动多个节点的名称都是 turtlesim 的 turtlesim_node 节点。 虽然节点重名是被 允许 的，但是开发者应该 主动避免 这种情况，因为节点重名可能会导致操作上的混淆。 仍以启动了多个 turtlesim_node 节点为例，当使用 计算图（rqt_graph） 查看节...]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2-010-通信机制补完：功能包重名和工作空间覆盖机制</title>
+      <link>/learningNote/Ros2_Note/co_me_2/2025_03_13.html</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/co_me_2/2025_03_13.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2-010-通信机制补完：功能包重名和工作空间覆盖机制</source>
+      <description>简介 在 ROS2 中编写功能包时，一般会在单个空间内进行编写与编译。但是当程序员需要经由多个工作空间进行不同的功能包的编写式，很可能会出现在不同的工作空间下将不同的功能包命名为同一个名字的情况。例如在 工作空间A 和 工作空间B 中都创建了一个名字叫 “C” 的功能包，假设该功能包里都有一个 “C_node” 节点，那么当我们新建终端并直接执行 时，...</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Thu, 13 Mar 2025 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[简介 在 ROS2 中编写功能包时，一般会在单个空间内进行编写与编译。但是当程序员需要经由多个工作空间进行不同的功能包的编写式，很可能会出现在不同的工作空间下将不同的功能包命名为同一个名字的情况。例如在 工作空间A 和 工作空间B 中都创建了一个名字叫 “C” 的功能包，假设该功能包里都有一个 “C_node” 节点，那么当我们新建终端并直接执行 时，...]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2-009-通信机制补完：元功能包 MetaPackage</title>
+      <link>/learningNote/Ros2_Note/co_me_2/2025_03_12.html</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/co_me_2/2025_03_12.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2-009-通信机制补完：元功能包 MetaPackage</source>
+      <description>简介 在 ROS2 中编写一个大的模块时，一般需要依照不同的功能分成多个子包。例如对于一个机器人导航模块，该模块可能被分为定位、路径规划、离线地图等多个子包进行分别编写。那么当我们需要安装该模块时，需要一个个安装这些子包才可以应用全部功能吗？ 元功能包(MetaPackage) 在 ROS2 中，其提供了一种可以将多个不同的功能子包打包成一个大的功能包...</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Wed, 12 Mar 2025 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[简介 在 ROS2 中编写一个大的模块时，一般需要依照不同的功能分成多个子包。例如对于一个机器人导航模块，该模块可能被分为定位、路径规划、离线地图等多个子包进行分别编写。那么当我们需要安装该模块时，需要一个个安装这些子包才可以应用全部功能吗？ 元功能包(MetaPackage) 在 ROS2 中，其提供了一种可以将多个不同的功能子包打包成一个大的功能包...]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2通信机制02-补充内容</title>
+      <link>/learningNote/Ros2_Note/co_me_2/</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/co_me_2/</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2通信机制02-补充内容</source>
+      <description>简述 这里是我有关ROS2通信机制补充内容的相关笔记，这里的内容比起而言知识密度比较松散，包括的内容有： 分布式框架的搭建（实现不同的 ROS2 设备间通信） 重名问题的处理（自定义功能包、节点、节点内话题重名的处理） 常用 API （定时器等时间类 API） 通信机制工具 （相关指令的进一步说明以及 rqt 工具箱等） 具体软硬件以及技术背景等细节请参考</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Mon, 13 Apr 2026 16:19:23 GMT</pubDate>
+      <content:encoded><![CDATA[简述 这里是我有关ROS2通信机制补充内容的相关笔记，这里的内容比起而言知识密度比较松散，包括的内容有： 分布式框架的搭建（实现不同的 ROS2 设备间通信） 重名问题的处理（自定义功能包、节点、节点内话题重名的处理） 常用 API （定时器等时间类 API） 通信机制工具 （相关指令的进一步说明以及 rqt 工具箱等） 具体软硬件以及技术背景等细节请参考]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2-008-通信机制补完：分布式通信和 ROS_DOMAIN_ID</title>
+      <link>/learningNote/Ros2_Note/co_me_2/2025_03_11.html</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/co_me_2/2025_03_11.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2-008-通信机制补完：分布式通信和 ROS_DOMAIN_ID</source>
+      <description>简介 在之前的中，我们系统地学习了四种通信机制。这四种通信机制在当时的应用场景都为单个ROS设备内相关节点、话题之间的相互沟通。那么当我们涉及到多台 ROS2 设备之间的相互通信时，我们应该如何实现？ 分布式通信 分布式通信就是这样一种 通过网络 在不同主机之间实现 数据交互 的通信策略。 首先我们应该了解， ROS2 本身就是一个分布式通信框架，它可...</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Tue, 11 Mar 2025 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[简介 在之前的中，我们系统地学习了四种通信机制。这四种通信机制在当时的应用场景都为单个ROS设备内相关节点、话题之间的相互沟通。那么当我们涉及到多台 ROS2 设备之间的相互通信时，我们应该如何实现？ 分布式通信 分布式通信就是这样一种 通过网络 在不同主机之间实现 数据交互 的通信策略。 首先我们应该了解， ROS2 本身就是一个分布式通信框架，它可...]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2通信机制01-核心内容</title>
+      <link>/learningNote/Ros2_Note/co_me/</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/co_me/</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2通信机制01-核心内容</source>
+      <description>简述 这里是有关ROS2通信机制核心内容的相关笔记,其包括了ROS2内常用的四种通信方式： Topics (话题通信) Services (服务通信) Actions (动作通信) Parameters (参数服务) 具体软硬件以及技术背景等细节请参考</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Mon, 13 Apr 2026 16:19:23 GMT</pubDate>
+      <content:encoded><![CDATA[简述 这里是有关ROS2通信机制核心内容的相关笔记,其包括了ROS2内常用的四种通信方式： Topics (话题通信) Services (服务通信) Actions (动作通信) Parameters (参数服务) 具体软硬件以及技术背景等细节请参考]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2-007-通信机制：参数服务-分支贰：Python实现</title>
+      <link>/learningNote/Ros2_Note/co_me/2025_03_07.html</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/co_me/2025_03_07.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2-007-通信机制：参数服务-分支贰：Python实现</source>
+      <description>动作通信的Python实现 现在，我们通过针对以下案例需求进行 Python 的实现，以更加深入了解参数服务。 案例需求&amp;案例分析 需求：有两个节点，请编写参数服务，在参数服务端（节点A）中设置一些参数，使参数客户端（节点B）可以通过访问参数服务端（节点A）对这些参数实现查看与修改，并且参数服务端（节点A）自身可以对此进行增删改查。 分析：在上述需求中...</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Fri, 07 Mar 2025 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[动作通信的Python实现 现在，我们通过针对以下案例需求进行 Python 的实现，以更加深入了解参数服务。 案例需求&案例分析 需求：有两个节点，请编写参数服务，在参数服务端（节点A）中设置一些参数，使参数客户端（节点B）可以通过访问参数服务端（节点A）对这些参数实现查看与修改，并且参数服务端（节点A）自身可以对此进行增删改查。 分析：在上述需求中...]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2-007-通信机制：参数服务-分支壹：C++实现</title>
+      <link>/learningNote/Ros2_Note/co_me/2025_03_06.html</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/co_me/2025_03_06.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2-007-通信机制：参数服务-分支壹：C++实现</source>
+      <description>简介 现在，我们通过针对以下案例需求进行 C++ 的实现，以更加深入了解参数服务。 案例需求&amp;案例分析 需求：有两个节点，请编写参数服务，在参数服务端（节点A）中设置一些参数，使参数客户端（节点B）可以通过访问参数服务端（节点A）对这些参数实现查看与修改，并且参数服务端（节点A）自身可以对此进行增删改查。 分析：在上述需求中，我们需要关注以下三个要素：...</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Thu, 06 Mar 2025 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[简介 现在，我们通过针对以下案例需求进行 C++ 的实现，以更加深入了解参数服务。 案例需求&案例分析 需求：有两个节点，请编写参数服务，在参数服务端（节点A）中设置一些参数，使参数客户端（节点B）可以通过访问参数服务端（节点A）对这些参数实现查看与修改，并且参数服务端（节点A）自身可以对此进行增删改查。 分析：在上述需求中，我们需要关注以下三个要素：...]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2-007-通信机制：参数服务</title>
+      <link>/learningNote/Ros2_Note/co_me/2024_11_27.html</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/co_me/2024_11_27.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2-007-通信机制：参数服务</source>
+      <description>简介 参数（Parameters） 是 ROS2 中用于节点运行时动态配置的键值对（Key-Value）存储机制。参数并不需要中心化的仓库用于存储信息，其直接被归属于节点本身。参数允许通过服务接口在该节点运行期间读写其内部相关配置，而无需修改代码或重启该节点。与话题通信（Topics）和服务通信（Services）不同，参数的交互本质是 对节点内部状态...</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[简介 参数（Parameters） 是 ROS2 中用于节点运行时动态配置的键值对（Key-Value）存储机制。参数并不需要中心化的仓库用于存储信息，其直接被归属于节点本身。参数允许通过服务接口在该节点运行期间读写其内部相关配置，而无需修改代码或重启该节点。与话题通信（Topics）和服务通信（Services）不同，参数的交互本质是 对节点内部状态...]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2-006-通信机制：动作通信-分支贰：Python实现</title>
+      <link>/learningNote/Ros2_Note/co_me/2024_10_16_002.html</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/co_me/2024_10_16_002.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2-006-通信机制：动作通信-分支贰：Python实现</source>
+      <description>动作通信的Python实现 现在，我们通过针对以下案例需求进行Python的实现，以更加深入了解动作通信。 案例需求&amp;案例分析 需求：编写动作服务端，动作客户端提交一个整型数据N，动作服务端接收请求数据并累加1-N之间的所有整数，将最终结果返回给动作客户端，且每累加一次都需要计算当前运算进度并反馈给动作客户端。 分析：在上述需求中，我们需要关注以下三个...</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[动作通信的Python实现 现在，我们通过针对以下案例需求进行Python的实现，以更加深入了解动作通信。 案例需求&案例分析 需求：编写动作服务端，动作客户端提交一个整型数据N，动作服务端接收请求数据并累加1-N之间的所有整数，将最终结果返回给动作客户端，且每累加一次都需要计算当前运算进度并反馈给动作客户端。 分析：在上述需求中，我们需要关注以下三个...]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2-006-通信机制：动作通信-分支壹：C++实现</title>
+      <link>/learningNote/Ros2_Note/co_me/2024_10_16.html</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/co_me/2024_10_16.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2-006-通信机制：动作通信-分支壹：C++实现</source>
+      <description>简介 现在，我们通过针对以下案例需求进行C++的实现，以更加深入了解动作通信。 案例需求&amp;案例分析 需求：编写动作通信，动作客户端提交一个整型数据N，动作服务端接收请求数据并累加1-N之间的所有整数，将最终结果返回给动作客户端，且每累加一次都需要计算当前运算进度并反馈给动作客户端。 分析：在上述需求中，我们需要关注以下三个要素： 动作客户端； 动作服务...</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Wed, 16 Oct 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[简介 现在，我们通过针对以下案例需求进行C++的实现，以更加深入了解动作通信。 案例需求&案例分析 需求：编写动作通信，动作客户端提交一个整型数据N，动作服务端接收请求数据并累加1-N之间的所有整数，将最终结果返回给动作客户端，且每累加一次都需要计算当前运算进度并反馈给动作客户端。 分析：在上述需求中，我们需要关注以下三个要素： 动作客户端； 动作服务...]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2-006-通信机制：动作通信</title>
+      <link>/learningNote/Ros2_Note/co_me/2024_10_15.html</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/co_me/2024_10_15.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2-006-通信机制：动作通信</source>
+      <description>简介 动作通信(Actions) 同样是一种基于 请求响应 的方式，以实现不同节点之间数据传输的通信模式。其中发送请求数据的对象称为 客户端，接受请求并发送数据相应的对象称之为 服务端。为了与前文的 相区分，将这里的客户端称为动作客户端，服务端称为动作服务端。 在结构上，动作通信由目标、反馈和结果三个部分组成,因此和 服务通信 不同的是，动作通信 可以...</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[简介 动作通信(Actions) 同样是一种基于 请求响应 的方式，以实现不同节点之间数据传输的通信模式。其中发送请求数据的对象称为 客户端，接受请求并发送数据相应的对象称之为 服务端。为了与前文的 相区分，将这里的客户端称为动作客户端，服务端称为动作服务端。 在结构上，动作通信由目标、反馈和结果三个部分组成,因此和 服务通信 不同的是，动作通信 可以...]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2-006-通信机制：动作通信Extra：如何实现自定义动作通信接口消息</title>
+      <link>/learningNote/Ros2_Note/co_me/2024_10_15_002.html</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/co_me/2024_10_15_002.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2-006-通信机制：动作通信Extra：如何实现自定义动作通信接口消息</source>
+      <description>简介 实现自定义动作接口消息的流程与的流程类似，其主要步骤如下： 创建并编写 .action 文件； 编辑配置文件； 编译； 测试。 因此，我们现在会在创建的接口功能包 base_interfaces_demo 里，尝试编写一个 .action 文件。该文件中包含请求数据(两个整型字段)与响应数据(一个整型字段)。 创建并编辑 .action 文件 在...</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[简介 实现自定义动作接口消息的流程与的流程类似，其主要步骤如下： 创建并编写 .action 文件； 编辑配置文件； 编译； 测试。 因此，我们现在会在创建的接口功能包 base_interfaces_demo 里，尝试编写一个 .action 文件。该文件中包含请求数据(两个整型字段)与响应数据(一个整型字段)。 创建并编辑 .action 文件 在...]]></content:encoded>
+    </item>
+    <item>
+      <title>转载：一定能解决ROS系统 rosdep update 超时问题de简单方法</title>
+      <link>/learningNote/Ros2_Note/2024_10_11_cpy_001.html</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/2024_10_11_cpy_001.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">转载：一定能解决ROS系统 rosdep update 超时问题de简单方法</source>
+      <description>版权声明：本文为博主转载文章，遵循 CC 4.0 BY 版权协议。因为自测有用转载至此，以下为原文链接👇 原文链接：https://blog.csdn.net/weixin_44023934/article/details/121242176 rosdep update命令使用 该方法是可以跳过 sudo rosdep init 初始化命令设置的，前...</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Mon, 13 Apr 2026 16:19:23 GMT</pubDate>
+      <content:encoded><![CDATA[版权声明：本文为博主转载文章，遵循 CC 4.0 BY 版权协议。因为自测有用转载至此，以下为原文链接👇 原文链接：https://blog.csdn.net/weixin_44023934/article/details/121242176 rosdep update命令使用 该方法是可以跳过 sudo rosdep init 初始化命令设置的，前...]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2-005-通信机制：服务通信-分支贰：Python实现</title>
+      <link>/learningNote/Ros2_Note/co_me/2024_10_03_004.html</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/co_me/2024_10_03_004.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2-005-通信机制：服务通信-分支贰：Python实现</source>
+      <description>服务通信的Python实现 现在，我们通过针对以下案例需求进行Python的实现，以更加深入了解服务通信。 案例需求&amp;案例分析 需求：编写服务通信，客户端可以提交两个整数到服务端，服务端接收请求并解析两个整数求和，然后将结果响应回客户端。 分析：在上述需求中，我们需要关注以下三个要素： 客户端； 服务端； 消息载体。 流程简介 案例实现前需要自定义服务...</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Wed, 09 Oct 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[服务通信的Python实现 现在，我们通过针对以下案例需求进行Python的实现，以更加深入了解服务通信。 案例需求&案例分析 需求：编写服务通信，客户端可以提交两个整数到服务端，服务端接收请求并解析两个整数求和，然后将结果响应回客户端。 分析：在上述需求中，我们需要关注以下三个要素： 客户端； 服务端； 消息载体。 流程简介 案例实现前需要自定义服务...]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2-005-通信机制：服务通信-分支壹：C++实现</title>
+      <link>/learningNote/Ros2_Note/co_me/2024_10_03_003.html</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/co_me/2024_10_03_003.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2-005-通信机制：服务通信-分支壹：C++实现</source>
+      <description>简介 现在，我们通过针对以下案例需求进行C++的实现，以更加深入了解服务通信。 案例需求&amp;案例分析 需求：编写服务通信，客户端可以提交两个整数到服务端，服务端接收请求并解析两个整数求和，然后将结果响应回客户端。 分析：在上述需求中，我们需要关注以下三个要素： 客户端； 服务端； 消息载体。 流程简介 案例实现前需要自定义服务接口。 在接口准备完毕后，服...</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Mon, 07 Oct 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[简介 现在，我们通过针对以下案例需求进行C++的实现，以更加深入了解服务通信。 案例需求&案例分析 需求：编写服务通信，客户端可以提交两个整数到服务端，服务端接收请求并解析两个整数求和，然后将结果响应回客户端。 分析：在上述需求中，我们需要关注以下三个要素： 客户端； 服务端； 消息载体。 流程简介 案例实现前需要自定义服务接口。 在接口准备完毕后，服...]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2-005-通信机制：服务通信</title>
+      <link>/learningNote/Ros2_Note/co_me/2024_10_03.html</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/co_me/2024_10_03.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2-005-通信机制：服务通信</source>
+      <description>简介 服务通信(Services)是一种基于 请求响应 的方式实现不同节点之间数据传输的通信模模式。发送请求数据的对象称为客户端，接受请求并发送数据相应的对象称之为服务端，与话题通信一样，客户端和服务端也通过话题(Topic)相关联，但是客户端和服务端可以互相进行数据传输交互。因此在服务通信中，消息的流向是双向的。 单对单发布/服务通信节点 在服务通信...</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[简介 服务通信(Services)是一种基于 请求响应 的方式实现不同节点之间数据传输的通信模模式。发送请求数据的对象称为客户端，接受请求并发送数据相应的对象称之为服务端，与话题通信一样，客户端和服务端也通过话题(Topic)相关联，但是客户端和服务端可以互相进行数据传输交互。因此在服务通信中，消息的流向是双向的。 单对单发布/服务通信节点 在服务通信...]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2-005-通信机制：服务通信Extra：如何实现自定义服务通信接口消息</title>
+      <link>/learningNote/Ros2_Note/co_me/2024_10_03_002.html</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/co_me/2024_10_03_002.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2-005-通信机制：服务通信Extra：如何实现自定义服务通信接口消息</source>
+      <description>简介 实现自定义服务接口消息的流程与的流程类似，其主要步骤如下： 创建并编写 .srv 文件； 编辑配置文件； 编译； 测试。 因此，我们现在会在创建的接口功能包 base_interfaces_demo 里，尝试编写一个 .srv 文件。该文件中包含请求数据(两个整型字段)与响应数据(一个整型字段)。 创建并编辑 .srv 文件 在功能包 base_...</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[简介 实现自定义服务接口消息的流程与的流程类似，其主要步骤如下： 创建并编写 .srv 文件； 编辑配置文件； 编译； 测试。 因此，我们现在会在创建的接口功能包 base_interfaces_demo 里，尝试编写一个 .srv 文件。该文件中包含请求数据(两个整型字段)与响应数据(一个整型字段)。 创建并编辑 .srv 文件 在功能包 base_...]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2-004-通信机制：话题通信Extra：如何实现自定义接口消息</title>
+      <link>/learningNote/Ros2_Note/co_me/2024_09_25.html</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/co_me/2024_09_25.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2-004-通信机制：话题通信Extra：如何实现自定义接口消息</source>
+      <description>简介 实现自定义话题接口消息的流程与在功能包中编写可执行程序的流程相似，其主要步骤如下： 创建并编写 .msg 文件； 编辑配置文件； 编译； 测试。 因此，我们现在会在创建的接口功能包 base_interfaces_demo 里，尝试编写一个 .msg 文件。该文件中包含学生的姓名、年龄、身高等字段。 创建并编辑 .msg 文件 在功能包 base...</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Wed, 25 Sep 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[简介 实现自定义话题接口消息的流程与在功能包中编写可执行程序的流程相似，其主要步骤如下： 创建并编写 .msg 文件； 编辑配置文件； 编译； 测试。 因此，我们现在会在创建的接口功能包 base_interfaces_demo 里，尝试编写一个 .msg 文件。该文件中包含学生的姓名、年龄、身高等字段。 创建并编辑 .msg 文件 在功能包 base...]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2-004-通信机制：话题通信-分支贰-自定义消息接口</title>
+      <link>/learningNote/Ros2_Note/co_me/2024_09_25_002.html</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/co_me/2024_09_25_002.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2-004-通信机制：话题通信-分支贰-自定义消息接口</source>
+      <description>自定义消息接口-话题通信实现 在案例1中，案例1所发布的消息是一个字符串文本，其消息类型是ROS2的内置消息类型。与使用原生消息接口相比，使用自定义消息接口发布的信息所对应的信息载体并没有被预定义，因此需要我们自己进行配置。 接下来我们将使用 自定义消息接口 实现话题通信。如果还没有在Ubuntu中执行准备工作的，可以参考。 自定义消息接口文件 具体实...</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Wed, 25 Sep 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[自定义消息接口-话题通信实现 在案例1中，案例1所发布的消息是一个字符串文本，其消息类型是ROS2的内置消息类型。与使用原生消息接口相比，使用自定义消息接口发布的信息所对应的信息载体并没有被预定义，因此需要我们自己进行配置。 接下来我们将使用 自定义消息接口 实现话题通信。如果还没有在Ubuntu中执行准备工作的，可以参考。 自定义消息接口文件 具体实...]]></content:encoded>
+    </item>
+    <item>
+      <title>在VSCode中设置自定义代码片段</title>
+      <link>/learningNote/coding_skill/2024_09_23.html</link>
+      <guid isPermaLink="false">/learningNote/coding_skill/2024_09_23.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">在VSCode中设置自定义代码片段</source>
+      <description>简介 在日常编写代码中，由于多个并行文件的创建，会出现许多代码重复编写的情况。例如创建 .vue 文件时需要分别创建 script 标签、 template 标签，或者在 ROS2 中创建节点文件时无论 C++ 文件之间还是 Python 文件之间的代码结构，都出现基本相同的情况等等。 为了减少重复代码的编写，提升代码编写效率，我们可以在 VSCode...</description>
+      <category>Computer</category>
+      <category>Skill</category>
+      <pubDate>Mon, 13 Apr 2026 16:19:23 GMT</pubDate>
+      <content:encoded><![CDATA[简介 在日常编写代码中，由于多个并行文件的创建，会出现许多代码重复编写的情况。例如创建 .vue 文件时需要分别创建 script 标签、 template 标签，或者在 ROS2 中创建节点文件时无论 C++ 文件之间还是 Python 文件之间的代码结构，都出现基本相同的情况等等。 为了减少重复代码的编写，提升代码编写效率，我们可以在 VSCode...]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2-004-通信机制：话题通信-分支壹-原生消息接口</title>
+      <link>/learningNote/Ros2_Note/co_me/2024_09_22.html</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/co_me/2024_09_22.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2-004-通信机制：话题通信-分支壹-原生消息接口</source>
+      <description>原生消息接口-话题通信实现 接下来我们将使用 原生消息接口 实现话题通信。如果还没有在Ubuntu中执行准备工作的，可以参考。 C++ 1. 发布方实现 功能包 cpp01_topic 的 src 目录下，新建 C++ 文件 demo01_talker_str.cpp，并编辑文件，输入如下内容： 2. 订阅方实现 功能包 cpp01_topic 的 s...</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Sun, 22 Sep 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[原生消息接口-话题通信实现 接下来我们将使用 原生消息接口 实现话题通信。如果还没有在Ubuntu中执行准备工作的，可以参考。 C++ 1. 发布方实现 功能包 cpp01_topic 的 src 目录下，新建 C++ 文件 demo01_talker_str.cpp，并编辑文件，输入如下内容： 2. 订阅方实现 功能包 cpp01_topic 的 s...]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2-003-通信机制：接口简述与四种通信模型的适用接口文件</title>
+      <link>/learningNote/Ros2_Note/co_me/2024_09_19.html</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/co_me/2024_09_19.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2-003-通信机制：接口简述与四种通信模型的适用接口文件</source>
+      <description>简介：什么是接口(interfaces)？ 在通信过程中，当节点间需要传输数据时，就必然需要以特定格式传输数据，也就是我们常用的数据载体。在ROS2中，数据载体被称之为接口(interfaces)。 常用的接口文件 通信时使用的数据载体一般需要使用接口文件定义。常用的接口文件有三种：msg 文件、srv 文件与 action 文件，分别用于对应所述的话...</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Thu, 19 Sep 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[简介：什么是接口(interfaces)？ 在通信过程中，当节点间需要传输数据时，就必然需要以特定格式传输数据，也就是我们常用的数据载体。在ROS2中，数据载体被称之为接口(interfaces)。 常用的接口文件 通信时使用的数据载体一般需要使用接口文件定义。常用的接口文件有三种：msg 文件、srv 文件与 action 文件，分别用于对应所述的话...]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2-004-通信机制：话题通信</title>
+      <link>/learningNote/Ros2_Note/co_me/2024_09_19_002.html</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/co_me/2024_09_19_002.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2-004-通信机制：话题通信</source>
+      <description>简介 话题通信(Topics)是一种以发布 订阅 的方式实现不同节点之间数据传输的通信模式。数据发布对象称为发布方，数据订阅对象称之为订阅方，发布方和订阅方通过话题(Topic)相关联，发布方将消息(Message)发布在话题上，订阅方则从该话题订阅消息(Message)。因此在话题通信中，消息的流向总是单向的。 单组发布/订阅系节点 但是在话题通信中...</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Thu, 19 Sep 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[简介 话题通信(Topics)是一种以发布 订阅 的方式实现不同节点之间数据传输的通信模式。数据发布对象称为发布方，数据订阅对象称之为订阅方，发布方和订阅方通过话题(Topic)相关联，发布方将消息(Message)发布在话题上，订阅方则从该话题订阅消息(Message)。因此在话题通信中，消息的流向总是单向的。 单组发布/订阅系节点 但是在话题通信中...]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2-002-通信机制：节点与话题、四种通信模型的记录与分析</title>
+      <link>/learningNote/Ros2_Note/co_me/2024_09_18.html</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/co_me/2024_09_18.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2-002-通信机制：节点与话题、四种通信模型的记录与分析</source>
+      <description>简介 作为一种高度复杂的系统性实现，在机器人中，一个完整的机器人应用程序一般会由若干功能模块组成，其中每个功能模块可能又包含若干功能点，而不同功能模块、不同功能点之间通常需要频繁的进行数据交互。 比如以导航中的路径规划模块为例： 路径规划模块需要其他功能模块将各种数据输入，并输出相应处理后的数据以便被其他模块调用； 输入的数据有地图服务提供的地图数据、...</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Wed, 18 Sep 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[简介 作为一种高度复杂的系统性实现，在机器人中，一个完整的机器人应用程序一般会由若干功能模块组成，其中每个功能模块可能又包含若干功能点，而不同功能模块、不同功能点之间通常需要频繁的进行数据交互。 比如以导航中的路径规划模块为例： 路径规划模块需要其他功能模块将各种数据输入，并输出相应处理后的数据以便被其他模块调用； 输入的数据有地图服务提供的地图数据、...]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2学习笔记集</title>
+      <link>/learningNote/Ros2_Note/</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2学习笔记集</source>
+      <description>简述 这里是我有关ROS2的相关笔记，这些笔记内所使用的相关软硬件配置为： ROS2 Jazzy Jalisco LTS Ubuntu 24.04.3 LTS Raspberry Pi 5B (4GB) 这些笔记大部分参考以下网站和视频教程写成： ROS2-Jazzy官方支持文档: ROS 2 Documentation — ROS 2 Documen...</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Mon, 13 Apr 2026 16:19:23 GMT</pubDate>
+      <content:encoded><![CDATA[简述 这里是我有关ROS2的相关笔记，这些笔记内所使用的相关软硬件配置为： ROS2 Jazzy Jalisco LTS Ubuntu 24.04.3 LTS Raspberry Pi 5B (4GB) 这些笔记大部分参考以下网站和视频教程写成： ROS2-Jazzy官方支持文档: ROS 2 Documentation — ROS 2 Documen...]]></content:encoded>
+    </item>
+    <item>
+      <title>ROS2-001-初始化与资源释放在程序中起到什么作用？</title>
+      <link>/learningNote/Ros2_Note/2024_09_12.html</link>
+      <guid isPermaLink="false">/learningNote/Ros2_Note/2024_09_12.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">ROS2-001-初始化与资源释放在程序中起到什么作用？</source>
+      <description>在ROS2节点中，当我们编写C++或Python程序时，都需要引用“初始化”与“资源释放”两个操作，例如： 在C++中： 在Python中： 但是这两个操作在编译运行后，并没有任何可视化表现，那么这两个操作起到什么作用呢？ 答案 ROS2构建的程序可能有若干步骤或阶段组成： 初始化 -&amp;gt; 节点对象 -&amp;gt; 日志输出 -&amp;gt; 数据发布 -&amp;gt; 数据订阅 -&amp;gt; ...</description>
+      <category>Computer</category>
+      <category>robot</category>
+      <category>ROS</category>
+      <pubDate>Thu, 12 Sep 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[在ROS2节点中，当我们编写C++或Python程序时，都需要引用“初始化”与“资源释放”两个操作，例如： 在C++中： 在Python中： 但是这两个操作在编译运行后，并没有任何可视化表现，那么这两个操作起到什么作用呢？ 答案 ROS2构建的程序可能有若干步骤或阶段组成： 初始化 -> 节点对象 -> 日志输出 -> 数据发布 -> 数据订阅 -> ...]]></content:encoded>
+    </item>
+    <item>
+      <title>可靠数据的传输原理(RDT/GBN/SR)</title>
+      <link>/learningNote/Computer_Network/%E5%8F%AF%E9%9D%A0%E6%95%B0%E6%8D%AE%E7%9A%84%E4%BC%A0%E8%BE%93%E5%8E%9F%E7%90%86.html</link>
+      <guid isPermaLink="false">/learningNote/Computer_Network/%E5%8F%AF%E9%9D%A0%E6%95%B0%E6%8D%AE%E7%9A%84%E4%BC%A0%E8%BE%93%E5%8E%9F%E7%90%86.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">可靠数据的传输原理(RDT/GBN/SR)</source>
+      <description>这篇博客我们将系统介绍有关在传输层中实现可靠数据传输 (Reliable Data Transfer) 的原理, 包括 rdt 的各个系列协议，在 rdt3.0 协议的基础上讨论停等协议与流水线协议的区别，并介绍两种流水线协议：GBN 协议与SR协议。 从传输层开始 传输层的主要功能是提供端到端的数据传输服务，例如 TCP 协议提供了可靠的、面向连接的...</description>
+      <category>Computer</category>
+      <category>Network</category>
+      <category>basic</category>
+      <pubDate>Mon, 13 Apr 2026 16:19:23 GMT</pubDate>
+      <content:encoded><![CDATA[这篇博客我们将系统介绍有关在传输层中实现可靠数据传输 (Reliable Data Transfer) 的原理, 包括 rdt 的各个系列协议，在 rdt3.0 协议的基础上讨论停等协议与流水线协议的区别，并介绍两种流水线协议：GBN 协议与SR协议。 从传输层开始 传输层的主要功能是提供端到端的数据传输服务，例如 TCP 协议提供了可靠的、面向连接的...]]></content:encoded>
+    </item>
+    <item>
+      <title>如何计算UDP校验和</title>
+      <link>/learningNote/Computer_Network/UDP%E6%A0%A1%E9%AA%8C%E5%92%8C.html</link>
+      <guid isPermaLink="false">/learningNote/Computer_Network/UDP%E6%A0%A1%E9%AA%8C%E5%92%8C.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">如何计算UDP校验和</source>
+      <description>如何构造校验和checksum？ checksum 的构造方法比较简单，但是计算比较麻烦：将需要发送的 16-bit 二进制源数据两两相加，取从右往左数共十六位数，如果有多的位数就把该位数移到最低位再相加。如此反复将所有需要发送的数据相加完毕后对它作反码，即将这十六位数的1置0，0置1。 具体需要的数据以下列的表格作为例子： 计算方式类似于下图。在下图...</description>
+      <category>Computer</category>
+      <category>Network</category>
+      <category>basic</category>
+      <pubDate>Mon, 13 Apr 2026 16:19:23 GMT</pubDate>
+      <content:encoded><![CDATA[如何构造校验和checksum？ checksum 的构造方法比较简单，但是计算比较麻烦：将需要发送的 16-bit 二进制源数据两两相加，取从右往左数共十六位数，如果有多的位数就把该位数移到最低位再相加。如此反复将所有需要发送的数据相加完毕后对它作反码，即将这十六位数的1置0，0置1。 具体需要的数据以下列的表格作为例子： 计算方式类似于下图。在下图...]]></content:encoded>
+    </item>
+    <item>
+      <title>TCP与UDP与他们之间的关系</title>
+      <link>/learningNote/Computer_Network/TCP%E4%B8%8EUDP%E4%B8%8E%E4%BB%96%E4%BB%AC%E7%9A%84%E5%85%B3%E7%B3%BB.html</link>
+      <guid isPermaLink="false">/learningNote/Computer_Network/TCP%E4%B8%8EUDP%E4%B8%8E%E4%BB%96%E4%BB%AC%E7%9A%84%E5%85%B3%E7%B3%BB.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">TCP与UDP与他们之间的关系</source>
+      <description>UDP UDP 是一种简洁、轻量级的传输协议，只提供最基本的通讯服务。UDP 定义于 [RFC 768]，其功能与传输协议差不多。除了多路复用/解复用功能和一些轻微的错误检查功能外，它没有为 IP 增加任何功能。也就是说，如果一个应用程序开发人员选择 UDP 而不是 TCP 作为传输协议的话，那么该应用程序几乎可以被认为是在直接与 IP 对话而没有任何...</description>
+      <category>Computer</category>
+      <category>Network</category>
+      <category>basic</category>
+      <pubDate>Mon, 13 Apr 2026 16:19:23 GMT</pubDate>
+      <content:encoded><![CDATA[UDP UDP 是一种简洁、轻量级的传输协议，只提供最基本的通讯服务。UDP 定义于 [RFC 768]，其功能与传输协议差不多。除了多路复用/解复用功能和一些轻微的错误检查功能外，它没有为 IP 增加任何功能。也就是说，如果一个应用程序开发人员选择 UDP 而不是 TCP 作为传输协议的话，那么该应用程序几乎可以被认为是在直接与 IP 对话而没有任何...]]></content:encoded>
+    </item>
+    <item>
+      <title>输入URL回车后发生了什么</title>
+      <link>/learningNote/Computer_Network/%E8%BE%93%E5%85%A5URL%E5%9B%9E%E8%BD%A6%E5%90%8E%E5%8F%91%E7%94%9F%E4%BA%86%E4%BB%80%E4%B9%88.html</link>
+      <guid isPermaLink="false">/learningNote/Computer_Network/%E8%BE%93%E5%85%A5URL%E5%9B%9E%E8%BD%A6%E5%90%8E%E5%8F%91%E7%94%9F%E4%BA%86%E4%BB%80%E4%B9%88.html</guid>
+      <source url="https://blog.jeacsonsnake.com/rss.xml">输入URL回车后发生了什么</source>
+      <description>让我们先来看看题目[1]： A question asking whats_going_on_from_enterURL_to_bowser_display 翻译一下就是： 假设你打开浏览器，并在地址栏中输入 http://yourbusiness.com/about.html, 请问从你按下回车开始到在显示网页的过程间会发生什么？请提供所使用协议的详...</description>
+      <category>Computer</category>
+      <category>Network</category>
+      <category>basic</category>
+      <pubDate>Mon, 13 Apr 2026 16:19:23 GMT</pubDate>
+      <content:encoded><![CDATA[让我们先来看看题目[1]： A question asking whats_going_on_from_enterURL_to_bowser_display 翻译一下就是： 假设你打开浏览器，并在地址栏中输入 http://yourbusiness.com/about.html, 请问从你按下回车开始到在显示网页的过程间会发生什么？请提供所使用协议的详...]]></content:encoded>
+    </item>
+  </channel>
+</rss>
